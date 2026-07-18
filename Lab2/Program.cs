@@ -23,6 +23,7 @@ if (isRaining && !haveUmbrella)
 else
     Console.WriteLine("You're good to go!");
 
+//Part 3: Conditional Logic- Movie Ticket Prices
 Console.WriteLine("What is your age?");
 int age = Convert.ToInt32(Console.ReadLine());
 if (age < 5)
@@ -42,6 +43,7 @@ else
     Console.WriteLine("Senior Ticket: $6");
 }
 
+//Part 4: Using a Switch Statement
 Console.WriteLine("What day of the week is it?(enter a number 1-7)");
 int day = Convert.ToInt32(Console.ReadLine());
 switch(day)
