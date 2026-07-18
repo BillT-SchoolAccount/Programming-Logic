@@ -48,7 +48,7 @@ internal class NewBaseType
         Console.WriteLine("How old are you? ");
         string agestring = Console.ReadLine();
         Console.WriteLine(" Your name is " + namestring + " and you are " + Convert.ToInt32(agestring) + " years old.");
-        //Step 6: Arithmetic Operators
+        //Step 7: Arithmetic Operators
         float x = 3;
         float y = 5;
         Console.WriteLine("The x variable value is: " + x);
